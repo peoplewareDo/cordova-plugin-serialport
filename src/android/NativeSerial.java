@@ -37,7 +37,7 @@ public class NativeSerial extends CordovaPlugin {
       cordova.getThreadPool().execute(new Runnable() {
         public void run() {
           NativeSerial.this.openPort(device, rate, callbackContext);
-          NativeSerial.this.startWatch();
+          //NativeSerial.this.startWatch();
         }
       });
       return true;
