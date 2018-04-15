@@ -1,0 +1,22 @@
+{
+  "name": "cordova-plugin-serialport",
+  "version": "1.0.0",
+  "description": "serial port cordova plugin",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peoplewareDo/cordova-plugin-serialport.git"
+  },
+  "keywords": [
+    "serialport",
+    "cordova"
+  ],
+  "author": "peopleware",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/peoplewareDo/cordova-plugin-serialport/issues"
+  },
+  "homepage": "https://github.com/peoplewareDo/cordova-plugin-serialport#readme"
+}
