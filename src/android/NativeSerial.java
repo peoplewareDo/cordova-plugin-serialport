@@ -132,7 +132,7 @@ public class NativeSerial extends CordovaPlugin {
 
   private void openPort(String device, int rate, CallbackContext callbackContext) {
     try {
-      NativeSerial.this.port = new SerialPort(new File(device), rate, 0);
+      NativeSerial.this.port = new SerialPort(new File(device), rate, 1);
     } catch (IOException e) {
       if (NativeSerial.this.port != null) {
         NativeSerial.this.port.close();
